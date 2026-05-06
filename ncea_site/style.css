@@ -1,0 +1,27 @@
+header{
+    display: flex;
+    gap: 600px;
+    
+}
+header img{
+    width: 100px;
+    height: auto;
+    padding: 20px;
+}
+header h1{
+    display: flex;
+    align-items: center;
+}
+nav{
+    background-color: gray;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 60px;
+    padding: 10px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
