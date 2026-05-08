@@ -1,6 +1,6 @@
 header{
     display: flex;
-    gap: 600px;
+    gap: 250px;
     
 }
 header img{
@@ -18,10 +18,64 @@ nav{
 nav ul{
     display: flex;
     list-style-type: none;
-    gap: 60px;
+    gap: 80px;
     padding: 10px;
 }
 nav a{
     color: white;
     text-decoration: none;
+}
+#ncea_img{
+    display: flex;
+}
+#ncea_intro{
+    align-content: center;
+    margin: 0 auto;
+    padding: 30px;
+}
+#ncea_img img{
+    width: 1000px;
+    height: 380px;
+}
+#ncea_intro p{
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+#ncea_intro h1{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+#main_content{
+    display: flex;
+    padding: 30px;
+    background-color: grey;
+}
+#main_content h2, #main_content li{
+    color: white;
+}
+#main_content h1{
+    color: white;
+    font-size: 25px;
+}
+#main_content li{
+    font-size: 24px;
+}
+#first_info{
+    width: 800px;
+    gap: 15px;
+}
+#main_content img{
+    width: 400px;
+    height: 400px;
+    margin-left: 30px;
+    display: flex;
+    align-content: center;
+}
+footer{
+    text-align: center;
+    justify-content: center;
 }
