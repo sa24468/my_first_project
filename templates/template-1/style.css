@@ -1,0 +1,17 @@
+.page-container {
+    height: 800px;
+    background-color: #f0f0f0;
+}
+header img {
+    width: 100px;
+    height: 100px;
+}
+nav {
+    display: flex;
+    background-color: black;
+}
+nav li {
+    list-style: none;
+    padding: 10px;
+    color: white;
+}
