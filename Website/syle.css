@@ -1,0 +1,83 @@
+.page-container {
+    width: 1400px;
+    background-color: #f0f0f0;
+    margin: auto;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    height: 20px;
+    color: white;
+    margin-right: 30px;
+}
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+header h1{
+    color: white;
+}
+nav ul {
+    display: flex;
+    gap: 15px;
+}
+nav li:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+.main-container{
+    height: 700px;
+    background-color: #F5E8C7;
+}
+.hero {
+  position: relative;
+  height: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-image: url('Images/Copilot_20260526_114837.png');
+}
+.hero-content {
+  text-align: center;
+  justify-content: center;
+  color: white;
+  z-index: 1; 
+}
+
+#menu_button{
+    margin: 0px;
+    background-color: gray;
+}
+footer{
+    background-color: #4B2E1E ;
+}
+footer p{
+    color: white;
+}
+#menu_button a{
+    text-decoration: none;
+    color: white;
+}
+#menu_button a:hover{
+    cursor: pointer;
+}
+.hero-content h1{
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+.hero-content p{
+    font-size: 30px;
+    margin-top: 10px;
+}
+#top-header{
+    display: flex;
+    background-color: rgba(26, 77, 74);
+    gap: 620px;
+}
