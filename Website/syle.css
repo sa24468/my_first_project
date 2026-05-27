@@ -13,7 +13,7 @@ nav li {
     height: 20px;
     color: white;
     margin-right: 30px;
-    font-size: 25px;
+    font-size: 20px;
 }
 header {
     display: flex;
@@ -50,6 +50,7 @@ nav li:hover {
   justify-content: center;
   color: white;
   z-index: 1; 
+  height: 1000px;
 }
 
 #menu_button{
@@ -81,8 +82,21 @@ footer p{
     display: flex;
     align-items: flex-start;
     align-items: center;
+    margin-bottom: 300px;
+    margin-top: 20px;
 }
 .logo_img{
-    width: 250px;
-    height: 100px;
+    width: 200px;
+    height: 80px;
+}
+.Join_button{
+    background-color: orange;
+    padding: 10px;
+    border-radius: 8px;
+}
+.Join_button:hover{
+    background-color: rgb(243, 188, 87);
+}
+nav a{
+    text-decoration: none;
 }
