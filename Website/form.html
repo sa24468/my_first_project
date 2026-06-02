@@ -8,9 +8,11 @@
 </head>
 <body>
     <div class="page-container"> 
-        <div id="top-header-rest">
+        <div class="top-header-rest">
             <header > 
-                <img class="logo_img" src="Images/logo-2.png" alt="Logo">
+                <a href="index.html" class="logo-link">
+                    <img class="logo_img" src="Images/logo-2-blackv2.png" alt="Logo">
+                </a>
             </header> 
             <nav >
                 <ul>
@@ -22,17 +24,18 @@
             </nav>
         </div>
         <div class="main-container"> 
-                <div id="login">
-        <form action="" method="post"> 
-            <label for="fname">First name:</label><br> 
-            <input type="text"id="fname"name="fname" required><br> 
-            <label for="mname">Middle name:</label><br> 
-            <input type="text"id="mname"name="mname"><br>
-            <label for="lname">Last name:</label><br> 
-            <input type="text"id="lname"name="lname" required><br>
-            <input type="submit" value="submit">
-        </form> 
-    </div>
+            <h1 id="sign_in">SIGN IN</h1>
+            <div id="login">
+                <form action="" method="post"> 
+                    <label for="email">Email:</label><br> 
+                    <input type="email" id="email" name="email" required><br> 
+                    <label for="Uname">Username:</label><br> 
+                    <input type="text" id="Uname" name="Uname" required><br>
+                    <label for="Password">Password:</label><br> 
+                    <input type="password" id="Password" name="Password" required><br>
+                    <input type="submit" value="submit">
+                </form> 
+            </div>
         </div> 
         <footer> 
             <p>2026 Your Company. All rights reserved.</p>
