@@ -118,3 +118,22 @@ nav a{
     align-items: flex-start;
     align-items: center;
 }
+#login{
+    background-color: white ;
+    width: 200px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 2px solid #333 ;
+}
+input{
+    margin-bottom:  20px ;
+}
+input[type="submit"]{
+    margin-bottom: 10px;
+    justify-content: center;
+    margin-left: 60px;
+}
