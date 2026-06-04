@@ -166,7 +166,28 @@ input[type="submit"]{
 }
 #home-para1 p{
     padding: 20px;
+    font-size: 25px;
 }
 #home-para2 p{
-
+    padding: 20px;
+    font-size: 25px;
+}
+#home-para1 img{
+    margin-right: 10px;
+    border-radius: 20px;
+}
+#home-para2 img{
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.home-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.logo-img{
+    color: white;
+    display: flex;
+    size: 30px;
 }
