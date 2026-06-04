@@ -241,3 +241,21 @@ input[type="submit"]{
     text-decoration: underline;
     cursor: pointer;
 }
+#learn-header-img{
+    background-image: url("Images/melody-richmond-5sK54nOBjPQ-unsplash.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;;
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 40px;
+}
+#learn-header-img h1{
+    color: white;
+    display: flex;
+    margin: 0 auto;
+    font-size: 70px;
+}
