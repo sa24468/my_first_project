@@ -259,3 +259,20 @@ input[type="submit"]{
     margin: 0 auto;
     font-size: 70px;
 }
+.chord-list {
+    list-style-type: none;
+    margin-right: 20px;
+}
+.chord-list h2 {
+    margin-bottom: 10px;
+}
+.chord-list img {
+    margin-bottom: 20px;
+}
+.chord-list p {
+    font-size: 18px;
+    margin-right: 20px;
+}
+.header-black{
+    color: black;
+}
