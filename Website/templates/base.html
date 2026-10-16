@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaurya Guitar Academy</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="page-container"> 
+        <div class="top-header-rest">
+            <header > 
+                <a href="{{ url_for('index') }}" class="logo-link">
+                    <img class="logo_img" src="{{ url_for('static', filename='Images/logo-2-blackv2.png') }}" alt="Logo">
+                </a>
+            </header> 
+            <nav >
+                <ul>
+                    <li><a class="header-black" href="{{ url_for('learn') }}">LEARN TO PLAY</a></li>
+                    <li><a class="header-black" href="{{ url_for('about') }}">ABOUT THE GUITAR</a></li>
+                    <li><a class="header-black" href="{{ url_for('contact') }}">CONTACT</a></li>
+                    <li><a class="Join_button" href="{{ url_for('form') }}">JOIN</a></li>
+                </ul> 
+            </nav>
+        </div>
+    {% block content %}
+    
+    {% endblock %}
+    <footer> 
+        <div class="footer-holder">
+            <div>
+                <a href="index.html" class="logo-link">
+                    <img class="logo_img" src="{{ url_for('static', filename='Images/logo-2.png') }}" alt="Logo">
+                </a>
+                <p>Teaching everyone how to play the guitar, Beginner to Advanced. Learn Now</p>
+            </div>
+            <div>
+                <h3>Links around the site</h3>
+                <hr>
+                <ul style="list-style-type: none;">
+                    <li><a class="logo-img" href="{{ url_for('learn') }}">LEARN TO PLAY</a></li>
+                    <li><a class="logo-img" href="{{ url_for('about') }}">ABOUT THE GUITAR</a></li>
+                    <li><a class="logo-img" href="{{ url_for('contact') }}">CONTACT</a></li>
+                    <li><a class="logo-img" href="{{ url_for('form') }}">JOIN</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Services</h3>
+                <hr>
+                <ul style="list-style-type: none;">
+                    <li><a class="logo-img" href="">Compare</a></li>
+                    <li><a class="logo-img" href="">Download</a></li>
+                    <li><a class="logo-img" href="contact.html">Feedback</a></li>
+                    <li><a class="logo-img" href="">Bug report</a></li>
+                </ul>
+            </div>
+            <div class="footer-logos">
+                <h3>Follow us on</h3>
+                <hr>
+                <ul style="list-style-type: none;">
+                    <li><a class="logo-img" href="https://icons8.com/icons/set/instagram-logo"><img src="{{ url_for('static', filename='Images/icons8-x-logo-50.png') }}" alt="X logo"></a></li>
+                    <li><a class="logo-img" href="https://icons8.com/icons/set/instagram-logo"><img src="{{ url_for('static', filename='Images/icons8-linkedin-logo-50.png') }}" alt="LI logo"></a></li>
+                    <li><a class="logo-img" href="https://icons8.com/icons/set/instagram-logo"><img src="{{ url_for('static', filename='Images/icons8-instagram-logo-50.png') }}" alt="insta logo"></a></li>
+                    <li><a class="logo-img" href="https://icons8.com/icons/set/instagram-logo"><img src="{{ url_for('static', filename='Images/icons8-facebook-50.png') }}" alt="facebook logo"></a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-end">2026 Shaurya Guitar Academy. All rights reserved.</p>
+    </footer> 
+</div>
+</body>
+</html>

@@ -1,113 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shaurya Guitar Academy</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="page-container"> 
-        <div class="top-header-rest">
-            <header > 
-                <a href="index.html" class="logo-link">
-                    <img class="logo_img" src="Images/logo-2-blackv2.png" alt="Logo">
-                </a>
-            </header> 
-            <nav >
-                <ul>
-                    <li><a class="header-black" href="learn.html">LEARN TO PLAY</a></li>
-                    <li><a class="header-black" href="about.html">ABOUT THE GUITAR</a></li>
-                    <li><a class="header-black" href="contact.html">CONTACT</a></li>
-                    <li><a class="Join_button" href="form.html">JOIN</a></li>
-                </ul> 
-            </nav>
-        </div>
-        <div class="main-container"> 
-            <div id="learn-header-img">
-                <h1>LEARN CHORDS</h1>
-            </div>
-            <ul class="chord-list">
-                <li>
-                    <h2>C major</h2>
-                    <p>The C major chord is one of the most fundamental and harmonious chords in music, built from the notes C, E and G. It features the root, major third, and perfect fifth, producing a bright and stable sound. This chord forms the backbone of countless songs across genres</p>
-                    <img src="Images/C-major.png" alt="C major chord">
-                </li>
-                <li>
-                    <h2>D major</h2>
-                    <p>The D major chord is built from the notes D, F# and A. It features the root, major third, and perfect fifth, producing a bright and stable sound. This chord is commonly used in many popular songs.</p>
-                    <img src="Images/D-major.png" alt="D major chord">  
-                </li>
-                <li>
-                    <h2>E major</h2>
-                    <p>The E major chord is built from the notes E, G# and B. It features the root, major third, and perfect fifth, producing a bright and stable sound. This chord is commonly used in many popular songs.</p>
-                    <img src="Images/E-major.png" alt="E major chord">
-                </li>
-                <li>
-                    <h2>F major</h2>
-                    <p>The F major chord is built from the notes F, A and C. It features the root, major third, and perfect fifth, producing a bright and stable sound. This chord is commonly used in many popular songs.</p>
-                    <img src="Images/F-major.png" alt="F major chord">
-                </li>
-                <li>
-                    <h2>G major</h2>
-                    <p>The G major chord is built from the notes G, B and D. It features the root, major third, and perfect fifth, producing a bright and stable sound. This chord is commonly used in many popular songs.</p>
-                    <img src="Images/G-major.png" alt="G major chord">
-                </li>
-                <li>
-                    <h2>A major</h2>
-                    <p>The A major chord is built from the notes A, C# and E. It features the root, major third, and perfect fifth, producing a bright and stable sound. This chord is commonly used in many popular songs.</p>
-                    <img src="Images/A-major.png" alt="A major chord">
-                </li>
-                <li>
-                    <h2>E minor</h2>
-                    <p>The E minor chord is built from the notes E, G and B. It features the root, minor third, and perfect fifth, producing a somber and introspective sound. This chord is commonly used in many popular songs.</p>
-                    <img src="Images/E-minor.png" alt="E minor chord">
-                </li>
-
-            </ul>
-        </div> 
-        <footer> 
-             <div class="footer-holder">
-                <div>
-                    <a href="index.html" class="logo-link">
-                        <img class="logo_img" src="Images/logo-2.png" alt="Logo">
-                    </a>
-                    <p>Teaching everyone how to play the guitar, Beginner to Advanced. Learn Now</p>
-                </div>
-                <div>
-                    <h3>Links around the site</h3>
-                    <hr>
-                    <ul style="list-style-type: none;">
-                        <li><a class="logo-img" href="learn.html">LEARN TO PLAY</a></li>
-                        <li><a class="logo-img" href="about.html">ABOUT THE GUITAR</a></li>
-                        <li><a class="logo-img" href="contact.html">CONTACT</a></li>
-                        <li><a class="logo-img" href="form.html">JOIN</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Services</h3>
-                    <hr>
-                    <ul style="list-style-type: none;">
-                        <li><a class="logo-img" href="">Compare</a></li>
-                        <li><a class="logo-img" href="">Download</a></li>
-                        <li><a class="logo-img" href="contact.html">Feedback</a></li>
-                        <li><a class="logo-img" href="">Bug report</a></li>
-                    </ul>
-                </div>
-                <div class="footer-logos">
-                    <h3>Follow us on</h3>
-                    <hr>
-                    <ul style="list-style-type: none;">
-                        <li><a class="logo-img" href="https://icons8.com/icons/set/instagram-logo"><img src="Images/icons8-x-logo-50.png" alt="X logo"></a></li>
-                        <li><a class="logo-img" href="https://icons8.com/icons/set/instagram-logo"><img src="Images/icons8-linkedin-logo-50.png" alt="LI logo"></a></li>
-                        <li><a class="logo-img" href="https://icons8.com/icons/set/instagram-logo"><img src="Images/icons8-instagram-logo-50.png" alt="insta logo"></a></li>
-                        <li><a class="logo-img" href="https://icons8.com/icons/set/instagram-logo"><img src="Images/icons8-facebook-50.png" alt="facebook logo"></a></li>
-                    </ul>
-                </div>
-            </div>
-            <p class="footer-end">2026 Shaurya Guitar Academy. All rights reserved.</p>
-        </footer> 
+{% extends "base.html" %}
+{% block content %}
+<div class="main-container"> 
+    <div id="learn-header-img">
+        <h1>LEARN CHORDS</h1>
     </div>
-    
-</body>
-</html>
+    <ul class="chord-list">
+        <li>
+            <h2>C major</h2>
+            <p>The C major chord is one of the most fundamental and harmonious chords in music, built from the notes C, E and G. It features the root, major third, and perfect fifth, producing a bright and stable sound. This chord forms the backbone of countless songs across genres</p>
+            <img src="{{ url_for('static', filename='Images/C-major.png') }}" alt="C major chord">
+        </li>
+        <li>
+            <h2>D major</h2>
+            <p>The D major chord is built from the notes D, F# and A. It features the root, major third, and perfect fifth, producing a bright and stable sound. This chord is commonly used in many popular songs.</p>
+            <img src="{{ url_for('static', filename='Images/D-major.png') }}" alt="D major chord">  
+        </li>
+        <li>
+            <h2>E major</h2>
+            <p>The E major chord is built from the notes E, G# and B. It features the root, major third, and perfect fifth, producing a bright and stable sound. This chord is commonly used in many popular songs.</p>
+            <img src="{{ url_for('static', filename='Images/E-major.png') }}" alt="E major chord">
+        </li>
+        <li>
+            <h2>F major</h2>
+            <p>The F major chord is built from the notes F, A and C. It features the root, major third, and perfect fifth, producing a bright and stable sound. This chord is commonly used in many popular songs.</p>
+            <img src="{{ url_for('static', filename='Images/F-major.png') }}" alt="F major chord">
+        </li>
+        <li>
+            <h2>G major</h2>
+            <p>The G major chord is built from the notes G, B and D. It features the root, major third, and perfect fifth, producing a bright and stable sound. This chord is commonly used in many popular songs.</p>
+            <img src="{{ url_for('static', filename='Images/G-major.png') }}" alt="G major chord">
+        </li>
+        <li>
+            <h2>A major</h2>
+            <p>The A major chord is built from the notes A, C# and E. It features the root, major third, and perfect fifth, producing a bright and stable sound. This chord is commonly used in many popular songs.</p>
+            <img src="{{ url_for('static', filename='Images/A-major.png') }}" alt="A major chord">
+        </li>
+        <li>
+            <h2>E minor</h2>
+            <p>The E minor chord is built from the notes E, G and B. It features the root, minor third, and perfect fifth, producing a somber and introspective sound. This chord is commonly used in many popular songs.</p>
+            <img src="{{ url_for('static', filename='Images/E-minor.png') }}" alt="E minor chord">
+        </li>
+
+    </ul>
+</div> 
+
+{% endblock %}

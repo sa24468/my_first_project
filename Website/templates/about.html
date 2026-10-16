@@ -1,84 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shaurya Guitar Academy</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="page-container"> 
-        <div class="top-header-rest">
-            <header > 
-                <a href="index.html" class="logo-link">
-                    <img class="logo_img" src="Images/logo-2-blackv2.png" alt="Logo">
-                </a>
-            </header> 
-            <nav >
-                <ul>
-                    <li><a class="header-black" href="learn.html">LEARN TO PLAY</a></li>
-                    <li><a class="header-black" href="about.html">ABOUT THE GUITAR</a></li>
-                    <li><a class="header-black" href="contact.html">CONTACT</a></li>
-                    <li><a class="Join_button" href="form.html">JOIN</a></li>
-                </ul> 
-            </nav>
+{% extends "base.html" %}
+{% block content %}
+    <div class="main-container">
+        <div id="about-header-img">
+        <h1>ABOUT US</h1>
         </div>
-        <div class="main-container"> 
-            <h1 id="sign_in">SIGN IN</h1>
-            <div id="login">
-                <form action="" method="post"> 
-                    <label for="email">Email:</label><br> 
-                    <input type="email" id="email" name="email" required><br> 
-                    <label for="Uname">Username:</label><br> 
-                    <input type="text" id="Uname" name="Uname" required><br>
-                    <label for="Password">Password:</label><br> 
-                    <input type="password" id="Password" name="Password" required><br>
-                    <input type="submit" value="submit">
-                </form> 
-            </div>
-        </div> 
-        <footer> 
-             <div class="footer-holder">
-                <div>
-                    <a href="index.html" class="logo-link">
-                        <img class="logo_img" src="Images/logo-2.png" alt="Logo">
-                    </a>
-                    <p>Teaching everyone how to play the guitar, Beginner to Advanced. Learn Now</p>
-                </div>
-                <div>
-                    <h3>Links around the site</h3>
-                    <hr>
-                    <ul style="list-style-type: none;">
-                        <li><a class="logo-img" href="learn.html">LEARN TO PLAY</a></li>
-                        <li><a class="logo-img" href="about.html">ABOUT THE GUITAR</a></li>
-                        <li><a class="logo-img" href="contact.html">CONTACT</a></li>
-                        <li><a class="logo-img" href="form.html">JOIN</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Services</h3>
-                    <hr>
-                    <ul style="list-style-type: none;">
-                        <li><a class="logo-img" href="">Compare</a></li>
-                        <li><a class="logo-img" href="">Download</a></li>
-                        <li><a class="logo-img" href="contact.html">Feedback</a></li>
-                        <li><a class="logo-img" href="">Bug report</a></li>
-                    </ul>
-                </div>
-                <div class="footer-logos">
-                    <h3>Follow us on</h3>
-                    <hr>
-                    <ul style="list-style-type: none;">
-                        <li><a class="logo-img" href="https://icons8.com/icons/set/instagram-logo"><img src="Images/icons8-x-logo-50.png" alt="X logo"></a></li>
-                        <li><a class="logo-img" href="https://icons8.com/icons/set/instagram-logo"><img src="Images/icons8-linkedin-logo-50.png" alt="LI logo"></a></li>
-                        <li><a class="logo-img" href="https://icons8.com/icons/set/instagram-logo"><img src="Images/icons8-instagram-logo-50.png" alt="insta logo"></a></li>
-                        <li><a class="logo-img" href="https://icons8.com/icons/set/instagram-logo"><img src="Images/icons8-facebook-50.png" alt="facebook logo"></a></li>
-                    </ul>
-                </div>
-            </div>
-            <p class="footer-end">2026 Shaurya Guitar Academy. All rights reserved.</p>
-        </footer> 
-    </div>
-    
-</body>
-</html>
+        <div class="about-content"> 
+        <h2>Welcome to Shaurya Guitar Academy</h2>
+        <p>At Shaurya Guitar Academy, we are passionate about teaching everyone 
+            how to play the guitar. Our team of experienced instructors is 
+            dedicated to helping learners of all ages and skill levels discover 
+            the joy of playing this versatile instrument. We believe that music 
+            has the power to connect people and enrich lives, and we are committed 
+            to making guitar learning accessible, enjoyable, and rewarding for 
+            everyone.</p>
+        <h2>Our Mission</h2>
+        <p>Our mission is to provide high-quality guitar education that empowers 
+            individuals to express themselves through music. We strive to create a 
+            supportive and inspiring learning environment where students can develop 
+            their skills, explore their creativity, and gain confidence in their musical 
+            abilities. Whether you are a beginner or an advanced player, we are here to 
+            guide you on your musical journey.</p>
+        <h2>Our Team</h2>
+        <p>Our team consists of passionate musicians and dedicated educators who
+            bring a wealth of knowledge and experience to the academy. Each instructor 
+            is committed to providing personalized guidance and support to help students 
+            achieve their musical goals. We are proud to have a diverse team of instructors 
+            who specialize in various styles and techniques, ensuring that every student 
+            receives a well-rounded education.</p>
+        </div>
+    </div> 
+{% endblock %}
