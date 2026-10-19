@@ -5,28 +5,37 @@
         <h1>ABOUT US</h1>
         </div>
         <div class="about-content"> 
-        <h2>Welcome to Shaurya Guitar Academy</h2>
-        <p>At Shaurya Guitar Academy, we are passionate about teaching everyone 
-            how to play the guitar. Our team of experienced instructors is 
-            dedicated to helping learners of all ages and skill levels discover 
-            the joy of playing this versatile instrument. We believe that music 
-            has the power to connect people and enrich lives, and we are committed 
-            to making guitar learning accessible, enjoyable, and rewarding for 
-            everyone.</p>
-        <h2>Our Mission</h2>
-        <p>Our mission is to provide high-quality guitar education that empowers 
-            individuals to express themselves through music. We strive to create a 
-            supportive and inspiring learning environment where students can develop 
-            their skills, explore their creativity, and gain confidence in their musical 
-            abilities. Whether you are a beginner or an advanced player, we are here to 
-            guide you on your musical journey.</p>
-        <h2>Our Team</h2>
-        <p>Our team consists of passionate musicians and dedicated educators who
-            bring a wealth of knowledge and experience to the academy. Each instructor 
-            is committed to providing personalized guidance and support to help students 
-            achieve their musical goals. We are proud to have a diverse team of instructors 
-            who specialize in various styles and techniques, ensuring that every student 
-            receives a well-rounded education.</p>
+        <h2 class="about-titles">Welcome to Shaurya Guitar Academy</h2>
+        <div class="about-para-left">
+            <p>At Shaurya Guitar Academy, we are passionate about teaching everyone 
+                how to play the guitar. Our team of experienced instructors is 
+                dedicated to helping learners of all ages and skill levels discover 
+                the joy of playing this versatile instrument. We believe that music 
+                has the power to connect people and enrich lives, and we are committed 
+                to making guitar learning accessible, enjoyable, and rewarding for 
+                everyone.</p>
+            <img src="{{ url_for('static', filename='Images/about-img-1.jpg') }}" alt="About Image 1">
+        </div>
+        <h2 class="about-titles">Our Mission</h2>
+        <div class="about-para-right">
+            <img src="{{ url_for('static', filename='Images/about-img-2.jpg') }}" alt="guitar academy image">
+            <p>Our mission is to provide high-quality guitar education that empowers 
+                individuals to express themselves through music. We strive to create a 
+                supportive and inspiring learning environment where students can develop 
+                their skills, explore their creativity, and gain confidence in their musical 
+                abilities. Whether you are a beginner or an advanced player, we are here to 
+                guide you on your musical journey.</p>
+        </div>
+        <h2 class="about-titles">Our Team</h2>
+        <div class="about-para-left">
+            <p>Our team consists of passionate musicians and dedicated educators who
+                bring a wealth of knowledge and experience to the academy. Each instructor 
+                is committed to providing personalized guidance and support to help students 
+                achieve their musical goals. We are proud to have a diverse team of instructors 
+                who specialize in various styles and techniques, ensuring that every student 
+                receives a well-rounded education.</p>
+            <img src="{{ url_for('static', filename='Images/about-img-3.jpg') }}" alt="guitar academy image">
+        </div>
         </div>
     </div> 
 {% endblock %}

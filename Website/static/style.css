@@ -314,3 +314,34 @@ input[type="submit"]{
     font-size: 20px;
     margin-right: 20px;
 }
+.about-para-left{
+    display: flex;
+    align-items: center;
+}
+.about-para-right{
+    display: flex;
+    align-items: center;
+}
+.about-para-left p{
+    padding: 40px;
+    font-size: 25px;
+}
+.about-para-right p{
+    padding: 40px;
+    font-size: 25px;
+}
+.about-para-left img{
+    margin-right: 10px;
+    border-radius: 20px;
+}
+.about-para-right img{
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.about-titles{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

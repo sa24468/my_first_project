@@ -4,7 +4,7 @@
     <div class="main-container"> 
         <h1 id="sign_in">SIGN IN</h1>
         <div id="login">
-            <form action="" method="post"> 
+            <form action="{{ url_for('form_post') }}" method="post"> 
                 <label for="email">Email:</label><br> 
                 <input type="email" id="email" name="email" required><br> 
                 <label for="Uname">Username:</label><br> 
