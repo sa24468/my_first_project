@@ -2,17 +2,23 @@
 {% extends "base.html" %}
 {% block content %}
     <div class="main-container"> 
-        <h1 id="sign_in">SIGN IN</h1>
+        <h1 id="sign_in">Messages</h1>
         <div id="login">
-            <form action="" method="post"> 
-                <label for="email">Email:</label><br> 
-                <input type="email" id="email" name="email" required><br> 
-                <label for="Uname">Username:</label><br> 
-                <input type="text" id="Uname" name="Uname" required><br>
-                <label for="Password">Password:</label><br> 
-                <input type="password" id="Password" name="Password" required><br>
+            <form action="{{ url_for('message_post') }}" method="post"> 
+                <label for="Name">Name:</label><br> 
+                <input type="text" id="Name" name="Name" required><br> 
+                <label for="Message">Message:</label><br> 
+                <input type="text" id="Message" name="Message" required><br>
                 <input type="submit" value="submit">
             </form> 
+        </div>
+        <div id="message-container">
+            {% for review in messages %} 
+                <div class="message">
+                    <h2>{{ review.name }}</h2>
+                    <p>{{ review.message }}</p>
+                </div>
+            {% endfor %}
         </div>
     </div> 
 {% endblock %}
