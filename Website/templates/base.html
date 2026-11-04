@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shaurya Guitar Academy</title>
+    <title>{% block title %}{% endblock %}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='Images/logo-1.png') }}">
 </head>
 <body>
     <div class="page-container"> 
@@ -50,8 +51,8 @@
                 <ul style="list-style-type: none;">
                     <li><a class="logo-img" href="">Compare</a></li>
                     <li><a class="logo-img" href="">Download</a></li>
-                    <li><a class="logo-img" href="contact.html">Feedback</a></li>
-                    <li><a class="logo-img" href="">Bug report</a></li>
+                    <li><a class="logo-img" href="{{ url_for('contact') }}">Feedback</a></li>
+                    <li><a class="logo-img" href="{{ url_for('contact') }}">Bug report</a></li>
                 </ul>
             </div>
             <div class="footer-logos">
